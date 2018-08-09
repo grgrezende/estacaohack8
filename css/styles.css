@@ -31,15 +31,20 @@ li{
     font-weight: bold;
     padding: 10px;
 }
+.exemplo{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
 
 
 .exemplo li{
-    background-color: violet;
+    background-color: black;
     height: 200px;
     width: 200px;
-    display: block;
+    display: inline-block;
     margin-left: 20px;
-    
+    margin: 0%
 }
 
 li:nth-child(2){
@@ -50,8 +55,71 @@ li:nth-child(2){
 }
 
 li:last-child{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+li:nth-child(3){
+    background-color: grey;
+    height:200px;
+    width: 200px;
+}
+li:nth-child(4){
     background-color: blue;
     height: 200px;
     width: 200px;
 }
 
+.semana li:nth-child(5){
+    height: 200px;
+}
+
+.container{
+    
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container li{
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+
+.container li:nth-child(1) {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin-left: 20px;
+    margin: 0%;
+    justify-content: center;
+}
+
+
+.container ul{
+    display: flex;
+    width: 100%;
+}
+.fds{
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+    justify-content: space-around;
+}
+
+
+
+#pudim{
+    position: sticky;
+    top: 20px;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+    display: flex
+  justify-contente: space-around;
+}
